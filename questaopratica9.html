@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a = Number(prompt("Informe o valor de a: "))
+        let b = Number(prompt("Informe o valor de b: "))
+        let c = Number(prompt("Informe o valor de c: "))
+
+        let discriminante = b * b - 4 * a * c
+
+        let raiz1 = (-b + Math.sqrt(discriminante) / (2 * a))
+        let raiz2 = (-b - Math.sqrt(discrimnante) / (2 * a))
+
+        document.write(`Os valores de x1 e x2 são respectivamente: ${raiz1}; ${raiz2}`)
+    </script>
+</body>
+</html>
